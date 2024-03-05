@@ -5,6 +5,11 @@ This project contains a shell script designed to retrieve the repositories from 
 - `USERNAME`: the user's GitHub username
 - `TOKEN`: the user's GitHub access token
 
+Install packages:
+```shell
+sudo apt install curl jq
+```
+
 ## How to run
 
 Make file executable:
