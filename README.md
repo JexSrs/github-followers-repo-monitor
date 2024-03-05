@@ -1,2 +1,18 @@
 # github-followers-repo-monitor
-A shell script to retrieve the latest created repos from the followed users/organization
+This project contains a shell script designed to retrieve the repositories from the followed users/organizations that were created the last 30 days.
+
+## Prerequisites
+- `USERNAME`: the user's GitHub username
+- `TOKEN`: the user's GitHub access token
+
+## How to run
+
+Make file executable:
+```shell
+chmod a+x script.sh
+```
+
+Execute:
+```shell
+./script.sh
+```
